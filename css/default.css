@@ -1,0 +1,58 @@
+/*
+* Ferhat DOĞAN
+* v1
+*/
+
+a, abbr, acronym, address, applet, article, aside, audio,b, blockquote, big, body,center, canvas, caption, cite, code, command,datalist, dd, del, details, dfn, dl, div, dt, em, embed,fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html,i, iframe, img, ins,kbd, keygen,label, legend, li, meter,nav,object, ol, output,p, pre, progress,q, s, samp, section, small, span, source, strike, strong, sub, sup,table, tbody, tfoot, thead, th, tr, td, video, tt,u, ul, var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul{list-style:none;}blockquote, q{quotes:none;}table, table td{padding:0;border:none;border-collapse:collapse;}img{vertical-align:top;}embed{vertical-align:top;}
+*{outline:0;}
+html, body{padding:0;margin:0;outline:0;overflow-x:hidden;}
+
+/* Web Site */
+body{font-family: 'Open Sans', sans-serif !important;background:url('../img/back.jpg') top center no-repeat; overflow: hidden !important; /*background-size: cover*/}
+a{text-decoration:none;color:#4d4d4d}
+.clear{clear:both;margin:0;padding:0}
+.left{float:left}
+.right{float:right}
+.display-none{display: none}
+.displayNone{display: none !important}
+::-webkit-scrollbar { width: 10px; } 
+::-webkit-scrollbar-track { -webkit-border-radius: 10px; background-color:#fff; border-radius: 10px; } 
+::-webkit-scrollbar-thumb { -webkit-border-radius: 10px; border-radius: 10px; background:#666; -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); } 
+
+/* Header */
+header .me{margin: 8% auto 15px 33%;}
+header .first{ box-shadow: 0px 0px 10px -2px #616161; border-radius: 10px; padding: 15px; background-color: #F5F5F5; margin-bottom:10px; height: 95px;}
+header .first img{border: 5px #F5F5F5 solid; display: inline-block;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-khtml-border-radius: 50%;border: 3px solid #fff; z-index: 1; -webkit-animation: me 1s ease; -webkit-animation-delay: 2s; margin-top: -67px; margin-left: -70px; box-shadow: 0px 0px 10px -2px #444;]}
+header .first h2{margin-left: 20px; color: #3A3A3A; margin-top: 5px; font-size: 20px; }
+header .first span.left{margin-left: 47px; line-height: 30px;}
+@-webkit-keyframes me {
+    0%{ -webkit-transform:  rotateY(0); }
+    50%{ -webkit-transform:  rotateY(180deg); }
+    100%{ -webkit-transform:  rotateY(360deg); }
+}
+
+/* Social Media Buttons */
+.social li {float:left; margin-right: 7px;}
+.social li a:hover i{color: #2A6496;}
+.social li i{font-size:27px}
+.social .fa-facebook-square{color: #305891;}
+.social .fa-twitter-square{color: #2ca8d2; font-size: 28px;}
+.social .fa-linkedin-square{color: #4498c8; font-size: 28px;}
+.social .fa-google-plus-square{color: #ce4d39;}
+.social .fa-github-square{font-size: 26px;}
+/* List Group */
+.panel .fa, .list-group-item .fa{line-height: 1.5; margin-right: 5px;}
+
+/* Content */
+.content {width: 65%; float: right; margin:11.8% auto 10px 0}
+.content .panel{box-shadow: 0px 0px 10px -2px #A3A3A3; min-height: 437px; max-height: 437px; overflow: hidden;}
+.content .panel-body{min-height: 400px; max-height: 400px; overflow: hidden; overflow-y: scroll}
+#skill .list-group-item{padding: 8px 15px !important;}
+.thumbnail img{height: 80px !important; padding: 15px;}
+#contact strong, #experiences strong{display: block; margin-bottom: -10px;}
+#contact strong{margin-bottom: -5px}
+#contact .label{font-size: 100% !important}
+
+footer{height: 38px; background: #eee; position: absolute; width: 100%; opacity: 0.6; bottom: 0;}
+footer p{color: #000;padding-top: 10px;margin-bottom: 0;}
+footer p.right{font-size: 11px; padding-top: 11px;}
